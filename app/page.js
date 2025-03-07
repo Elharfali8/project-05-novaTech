@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
@@ -11,6 +12,7 @@ function HomePage() {
       <Features />
       <HowItWorks />
       <Pricing />
+      <About />
     </main>
   )
 }
