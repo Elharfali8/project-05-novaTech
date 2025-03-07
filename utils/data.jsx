@@ -47,3 +47,39 @@ export const steps = [
         desc: 'Let AI and automation handle repetitive tasks, so you can focus on growth.'
     },
 ]
+
+export const pricing = [
+    {
+        id: 1,
+        title: 'Free Plan',
+        price: 0,
+        list: [
+            '✅ Basic AI Automation',
+            '✅ Limited Integrations',
+            '✅ Community Support',
+        ],
+        btn: 'get started'
+    },
+    {
+        id: 2,
+        title: 'Pro Plan',
+        price: 19,
+        list: [
+            '✅ Advanced AI Automation',
+            '✅ Unlimited Integrations',
+            '✅ Priority Support',
+        ],
+        btn: 'upgrade now'
+    },
+    {
+        id: 3,
+        title: 'Enterprise',
+        price: 'Custom',
+        list: [
+            '✅ Full AI Automation Suite',
+            '✅ Dedicated Account Manager',
+            '✅ 24/7 Premium Support',
+        ],
+        btn: 'contact us'
+    },
+]
