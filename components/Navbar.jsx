@@ -22,10 +22,10 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 text-lg">
-          <Link href="/features" className="hover:text-[#6366F1] transition">Features</Link>
-          <Link href="/pricing" className="hover:text-[#6366F1] transition">Pricing</Link>
-          <Link href="/about" className="hover:text-[#6366F1] transition">About</Link>
-          <Link href="/contact" className="hover:text-[#6366F1] transition">Contact</Link>
+          <Link href="#features" className="hover:text-[#6366F1] transition">Features</Link>
+          <Link href="#pricing" className="hover:text-[#6366F1] transition">Pricing</Link>
+          <Link href="#about" className="hover:text-[#6366F1] transition">About</Link>
+          <Link href="#contact" className="hover:text-[#6366F1] transition">Contact</Link>
         </div>
 
         {/* Mobile Menu Button */}

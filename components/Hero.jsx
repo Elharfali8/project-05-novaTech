@@ -3,7 +3,7 @@ import HeroIllustration from './HeroIllustration'
 
 const Hero = () => {
   return (
-    <section className="grid place-items-center md:grid-cols-2 min-h-[calc(100vh-64px)] px-6">
+    <section id='home' className="grid place-items-center md:grid-cols-2 min-h-[calc(100vh-64px)] px-6">
       {/* Left Side: Text Content */}
       <div className="max-w-lg text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold">

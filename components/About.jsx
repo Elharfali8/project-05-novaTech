@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section className='py-8 md:py-10 lg:py-14'>
+    <section id='about' className='py-8 md:py-10 lg:py-14'>
           <SectionTitle title='about' />
           <div className='grid md:grid-cols-2 gap-8 items-center'>
           <div className="relative">
@@ -44,7 +44,7 @@ const About = () => {
       </div>
 
       {/* CTA Button */}
-      <button className="mt-6 py-3 px-6 bg-blue-600 hover:bg-blue-500 rounded-lg transition-all">
+      <button className="mt-6 py-3 px-6 bg-[#6366F1] hover:bg-[#7e80fe] rounded-lg transition-all">
         Learn More
       </button>
     </div>
